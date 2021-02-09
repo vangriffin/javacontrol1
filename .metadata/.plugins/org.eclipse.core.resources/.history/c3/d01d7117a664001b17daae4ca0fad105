@@ -1,0 +1,22 @@
+package playground;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ArrayList<String>animals = new ArrayList<>();
+		animals.add("dog");
+		animals.add("lion");
+		animals.add("rabbit");
+		animals.add("leopard");
+		
+		animals.add(2, "pineapple");
+		
+		animals.set(0, "caribou");
+		
+		System.out.println(animals);
+
+	}
+
+}

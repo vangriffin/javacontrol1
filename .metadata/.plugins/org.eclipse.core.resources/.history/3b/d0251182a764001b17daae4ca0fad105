@@ -1,0 +1,31 @@
+package playground;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		ArrayList<String>animals = new ArrayList<>();
+//		animals.add("dog");
+//		animals.add("lion");
+//		animals.add("rabbit");
+//		animals.add("leopard");
+//		
+//		animals.add(2, "pineapple");
+//		
+//		animals.set(0, "caribou");
+//		
+//		System.out.println(animals);
+		
+		ArrayList<String> things = new ArrayList<String>(5);
+		things.add("dog");
+//		things.add("lion");
+//		things.add("rabbit");
+//		things.add,("leopard");
+		things.add(4, null);
+		things.add(5, "caribou");
+		
+		System.out.println(things);
+	}
+
+}

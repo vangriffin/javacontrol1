@@ -1,0 +1,69 @@
+package playground;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Stack;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		ArrayList<String>animals = new ArrayList<>();
+//		animals.add("dog");
+//		animals.add("lion");
+//		animals.add("rabbit");
+//		animals.add("leopard");
+//		
+//		animals.add(2, "pineapple");
+//		
+//		animals.set(0, "caribou");
+//		
+//		System.out.println(animals);
+		
+//		ArrayList<String> things = new ArrayList<String>(5);
+//		things.add("dog");
+//		things.add("lion");	
+//		things.add("rabbit");
+//		things.add("leopard");
+//		things.add(4, null);
+//		things.add("caribou");
+//		
+//		System.out.println(things);
+//		
+//		ArrayList<String>crackers = new ArrayList<>();
+//		
+//		crackers.add(null);
+//		int i = 1;
+//		for(String thing : things) {
+//			
+//			crackers.add(i, thing);
+//			++1;
+//		}
+//		
+//		System.out.println(things);
+		
+//		LinkedList<String> places = new LinkedList<String>();
+//		
+//		places.add("Tahiti");
+//		places.add("Sao Paolo");
+//		places.add("Zurich");
+//		places.add("Paris");
+//		places.add("Tunisia");
+//		
+//		System.out.println(places);
+//		
+//		places.remove("Zurich");
+//		
+//		System.out.println(places);
+		
+		Stack<Integer> myStack = new Stack<Integer>();
+		myStack.push(1);
+		myStack.push(2);
+		myStack.push(3);
+		myStack.push(4);
+		myStack.push(6);
+		myStack.push(9);
+		
+		System.out.printf("Pop method gives me: %d\n", myStack.pop());
+	}
+
+}
